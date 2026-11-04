@@ -1,0 +1,270 @@
+=== 2026-11-03T02:28:20Z event=sessionStart label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672900036,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"new","initialPrompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:28:20Z event=sessionStart label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672900036,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"new","initialPrompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:28:21Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672901216,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:28:21Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672901216,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:28:25Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672905510,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {"decision":"block","reason":"probe: say PROBE-OK and stop"}
+=== 2026-11-03T02:28:26Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672905510,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}
+=== 2026-11-03T02:28:26Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672906589,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"probe: say PROBE-OK and stop"}
+output: {}
+=== 2026-11-03T02:28:27Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672906589,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"probe: say PROBE-OK and stop"}
+output: {}
+=== 2026-11-03T02:28:28Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672908438,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":true}
+output: {}
+=== 2026-11-03T02:28:29Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672908438,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":true}
+output: {}
+=== 2026-11-03T02:29:02Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672942241,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Append the word world to hello.txt."}
+output: {}
+=== 2026-11-03T02:29:02Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672942241,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Append the word world to hello.txt."}
+output: {}
+=== 2026-11-03T02:29:05Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672945008,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}
+=== 2026-11-03T02:29:05Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793672945008,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}
+=== 2026-11-03T02:29:47Z event=sessionStart label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672987315,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"new","initialPrompt":"Say hi."}
+output: {}
+=== 2026-11-03T02:29:48Z event=sessionStart label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672987315,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"new","initialPrompt":"Say hi."}
+output: {}
+=== 2026-11-03T02:29:48Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672987988,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Say hi."}
+output: {}
+=== 2026-11-03T02:29:48Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672987988,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Say hi."}
+output: {}
+=== 2026-11-03T02:29:50Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672990085,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\1e6038d1-faf8-4122-b084-0e916dbb8547\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {"decision":"block","reason":"probe: say PROBE-OK and stop"}
+=== 2026-11-03T02:29:50Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672990085,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\1e6038d1-faf8-4122-b084-0e916dbb8547\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}
+=== 2026-11-03T02:29:51Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672991052,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"probe: say PROBE-OK and stop"}
+output: {}
+=== 2026-11-03T02:29:51Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672991052,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"probe: say PROBE-OK and stop"}
+output: {}
+=== 2026-11-03T02:29:52Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672992487,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\1e6038d1-faf8-4122-b084-0e916dbb8547\\events.jsonl","stopReason":"end_turn","stop_hook_active":true}
+output: {}
+=== 2026-11-03T02:29:53Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"1e6038d1-faf8-4122-b084-0e916dbb8547","timestamp":1793672992487,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\1e6038d1-faf8-4122-b084-0e916dbb8547\\events.jsonl","stopReason":"end_turn","stop_hook_active":true}
+output: {}
+=== 2026-11-03T02:31:49Z event=sessionStart label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673108719,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"resume","initialPrompt":"Say hi again."}
+output: {}
+=== 2026-11-03T02:31:49Z event=sessionStart label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673108719,"cwd":"c:\\Users\\nelson\\probe-scratch","source":"resume","initialPrompt":"Say hi again."}
+output: {}
+=== 2026-11-03T02:31:50Z event=userPromptSubmitted label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673109966,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Say hi again."}
+output: {}
+=== 2026-11-03T02:31:50Z event=userPromptSubmitted label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673109966,"cwd":"c:\\Users\\nelson\\probe-scratch","prompt":"Say hi again."}
+output: {}
+=== 2026-11-03T02:31:52Z event=agentStop label=nested
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Bypass; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673112068,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}
+=== 2026-11-03T02:31:52Z event=agentStop label=direct
+shell: PowerShell 5.1.26100.9711 edition=Desktop exe=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+execution-policy: MachinePolicy=Undefined; UserPolicy=Undefined; Process=Undefined; CurrentUser=Undefined; LocalMachine=Unrestricted
+pwd: C:\Users\nelson\probe-scratch
+toplevel: C:/Users/nelson/probe-scratch
+git-dir: C:/Users/nelson/probe-scratch/.git
+env-names: COPILOT_CLI COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_CLI_RUN_AS_NODE COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOME COPILOT_HOOK_DIR COPILOT_MCP_APPS COPILOT_PROJECT_DIR COPILOT_RUNTIME_PROCESS_FILE_LOGGING
+stdin: {"sessionId":"046e6aa2-60db-4f6f-8168-5af8c91fc1e7","timestamp":1793673112068,"cwd":"c:\\Users\\nelson\\probe-scratch","transcriptPath":"c:\\Users\\nelson\\.copilot\\session-state\\046e6aa2-60db-4f6f-8168-5af8c91fc1e7\\events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {}

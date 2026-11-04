@@ -1,0 +1,129 @@
+# project-docs formats
+
+Canonical formats for the files in `docs/project-docs/`. Follow them exactly. The templates in
+the skill's `assets/docs/` folder match this file.
+
+General rules for all four files:
+
+- Line 1 of `log.md`, `decisions.md` and `knowledge.md` is the marker `<!-- project-docs: v1 -->`.
+- Files are UTF-8 without BOM, with LF line endings.
+- Dates are `YYYY-MM-DD`. IDs are a letter plus four digits: `L0001` (log), `D0001` (decision).
+- Paths use `/`. Commands are written exactly as they were run.
+- Never write secrets (passwords, tokens, keys). Write `<SECRET: name>` instead.
+
+**Enabled** means: `docs/project-docs/log.md` exists and its first line is exactly
+`<!-- project-docs: v1 -->`.
+
+## log.md
+
+```markdown
+<!-- project-docs: v1 -->
+# Project log
+
+Every outcome-producing step in this repository, newest first.
+Rules: `.github/instructions/project-docs.instructions.md`. Entries below the first are frozen.
+
+<!-- entries: newest first -->
+
+## L0002 — 2026-11-02 — Add CSV export endpoint
+- Did: Added GET /export.csv returning all orders.
+- Why: Finance needs a daily extract.
+- Changed: `src/api/export.ts`, `src/api/routes.ts`
+- Ran: `npm install csv-stringify@6.5.2` (repo root)
+- Verify: `curl -s localhost:3000/export.csv | head -1` -> `id,date,total`
+- Decision: D0002
+- Next: Add auth check to /export.csv.
+
+## L0001 — 2026-11-02 — project-docs enabled
+- Did: Enabled project-docs documentation.
+- Changed: `docs/project-docs/`, `.github/instructions/project-docs.instructions.md`, `.github/hooks/project-docs.json`, `.github/hooks/project-docs/`, `.gitattributes`
+- Baseline: commit `3f2a9c1` on `main`
+- Next: Await user direction.
+```
+
+Entries are newest first. A new entry goes directly below the `<!-- entries: newest first -->`
+line. Entries below the top one are frozen: never edit them. To reverse an earlier step, write
+a new entry with `Supersedes:`.
+
+Fields. The order is fixed. Omit optional fields that do not apply.
+
+| Field | Required | Content |
+|---|---|---|
+| heading | yes | `## L<4-digit seq> — <YYYY-MM-DD> — <short imperative title>` |
+| `Did:` | yes | What was done, 1–2 lines. |
+| `Why:` | no | Reason, when not obvious and not covered by a decision. |
+| `Changed:` | no | Repo paths changed, in backticks. |
+| `Ran:` | no | Exact commands, each with where it ran: `(repo root)`, `(user machine)`, `(browser: <service console>)`. Put multi-line commands in a fenced block under the field. |
+| `Verify:` | no | Command or check -> expected result. |
+| `Decision:` | no | `D####` IDs. |
+| `Supersedes:` | no | `L####` IDs this step reverts or replaces. |
+| `Status:` | no | `abandoned` for dead ends. Absent means done. |
+| `Commit:` | no | Short SHA when the step was committed. |
+| `Origin:` | no | `migrated` or `reconstructed` (written by setup only). |
+| `Baseline:` | no | Setup entry only. |
+| `Next:` | yes | The single next action. Only the top entry's `Next:` is current. |
+
+Rules:
+
+- An entry is at most 15 lines, not counting fenced blocks.
+- Write exact versions, values and paths as they were used.
+
+## decisions.md
+
+```markdown
+<!-- project-docs: v1 -->
+# Decisions
+
+Decisions that shape this repository, newest first. A decision changes only by a new decision
+that supersedes it; the old entry's `Status:` line is the only field ever edited.
+
+<!-- entries: newest first -->
+
+## D0002 — 2026-11-02 — Use csv-stringify for CSV output
+- Status: active
+- Decision: Generate CSV with csv-stringify, streaming.
+- Why: Handles quoting correctly; streams large result sets.
+- Rejected: Manual string join — breaks on commas in fields.
+- Log: L0002
+```
+
+- `Status:` is `active` or `superseded by D####`.
+- A new entry goes directly below the `<!-- entries: newest first -->` line.
+- To change a decision, write a new decision entry. Then edit only the old entry's `Status:`
+  line to `superseded by D####`. Change nothing else in the old entry.
+- `Log:` names the log entry that made the decision, or `—` when there is none.
+
+## knowledge.md
+
+```markdown
+<!-- project-docs: v1 -->
+# Codebase knowledge
+
+Facts discovered from the code. Each fact cites its source. Before relying on a fact, check
+that the source still says so; correct or remove it if not.
+
+## Layout
+## Build, run, test
+## Configuration
+## Architecture
+## Conventions
+## Gotchas
+
+<!-- fact format: - <fact>. Source: `path` or `path#L10-L20`. Checked: YYYY-MM-DD -->
+```
+
+- The six sections are fixed. Do not add, rename or reorder them.
+- An empty section holds the single line `- (none yet)`. Remove that line when the first fact
+  is added to the section.
+- One fact per line, in this form:
+
+  ```
+  - <fact>. Source: `path` or `path#L10-L20`. Checked: YYYY-MM-DD
+  ```
+
+- When a fact is found to be wrong, correct or remove it, and update its `Checked:` date.
+
+## README.md
+
+Under 20 lines, for humans: what each file is, that the handouts are generated by
+`/project-docs-regenerate`, and that entries are written by the agent under the rules file.

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "type": "command",
+        "bash": "bash .github/hooks/project-docs/hook.sh session-start",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/project-docs/hook.ps1 session-start",
+        "timeoutSec": 10
+      }
+    ],
+    "userPromptSubmitted": [
+      {
+        "type": "command",
+        "bash": "bash .github/hooks/project-docs/hook.sh prompt-submit",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/project-docs/hook.ps1 prompt-submit",
+        "timeoutSec": 10
+      }
+    ],
+    "agentStop": [
+      {
+        "type": "command",
+        "bash": "bash .github/hooks/project-docs/hook.sh agent-stop",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/project-docs/hook.ps1 agent-stop",
+        "timeoutSec": 10
+      }
+    ]
+  }
+}

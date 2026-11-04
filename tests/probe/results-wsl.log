@@ -1,0 +1,45 @@
+=== 2026-11-03T02:36:45Z event=sessionStart label=bash
+shell: bash 5.2.37(1)-release
+uname: Linux raven 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+pwd: /home/nelson/probe-scratch
+toplevel: /home/nelson/probe-scratch
+git-dir: /home/nelson/probe-scratch/.git
+env-names: COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_RUNTIME_PROCESS_FILE_LOGGING COPILOT_CLI_RUN_AS_NODE COPILOT_MCP_APPS COPILOT_HOME COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_CLI COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOOK_DIR COPILOT_PROJECT_DIR 
+stdin: {"sessionId":"a88e0851-1a94-4c93-951f-f11d15fdb46c","timestamp":1793673405302,"cwd":"/home/nelson/probe-scratch","source":"new","initialPrompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:36:46Z event=userPromptSubmitted label=bash
+shell: bash 5.2.37(1)-release
+uname: Linux raven 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+pwd: /home/nelson/probe-scratch
+toplevel: /home/nelson/probe-scratch
+git-dir: /home/nelson/probe-scratch/.git
+env-names: COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_RUNTIME_PROCESS_FILE_LOGGING COPILOT_CLI_RUN_AS_NODE COPILOT_MCP_APPS COPILOT_HOME COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_CLI COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOOK_DIR COPILOT_PROJECT_DIR 
+stdin: {"sessionId":"a88e0851-1a94-4c93-951f-f11d15fdb46c","timestamp":1793673406610,"cwd":"/home/nelson/probe-scratch","prompt":"Create a file hello.txt containing the word hello."}
+output: {}
+=== 2026-11-03T02:36:48Z event=agentStop label=bash
+shell: bash 5.2.37(1)-release
+uname: Linux raven 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+pwd: /home/nelson/probe-scratch
+toplevel: /home/nelson/probe-scratch
+git-dir: /home/nelson/probe-scratch/.git
+env-names: COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_RUNTIME_PROCESS_FILE_LOGGING COPILOT_CLI_RUN_AS_NODE COPILOT_MCP_APPS COPILOT_HOME COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_CLI COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOOK_DIR COPILOT_PROJECT_DIR 
+stdin: {"sessionId":"a88e0851-1a94-4c93-951f-f11d15fdb46c","timestamp":1793673408790,"cwd":"/home/nelson/probe-scratch","transcriptPath":"/home/nelson/.copilot/session-state/a88e0851-1a94-4c93-951f-f11d15fdb46c/events.jsonl","stopReason":"end_turn","stop_hook_active":false}
+output: {"decision":"block","reason":"probe: say PROBE-OK and stop"}
+=== 2026-11-03T02:36:49Z event=userPromptSubmitted label=bash
+shell: bash 5.2.37(1)-release
+uname: Linux raven 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+pwd: /home/nelson/probe-scratch
+toplevel: /home/nelson/probe-scratch
+git-dir: /home/nelson/probe-scratch/.git
+env-names: COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_RUNTIME_PROCESS_FILE_LOGGING COPILOT_CLI_RUN_AS_NODE COPILOT_MCP_APPS COPILOT_HOME COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_CLI COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOOK_DIR COPILOT_PROJECT_DIR 
+stdin: {"sessionId":"a88e0851-1a94-4c93-951f-f11d15fdb46c","timestamp":1793673409019,"cwd":"/home/nelson/probe-scratch","prompt":"probe: say PROBE-OK and stop"}
+output: {}
+=== 2026-11-03T02:36:49Z event=agentStop label=bash
+shell: bash 5.2.37(1)-release
+uname: Linux raven 6.18.54.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Tue Oct  6 19:13:07 UTC 2026 x86_64 GNU/Linux
+pwd: /home/nelson/probe-scratch
+toplevel: /home/nelson/probe-scratch
+git-dir: /home/nelson/probe-scratch/.git
+env-names: COPILOT_ENABLE_BUILTIN_GITHUB_MCP COPILOT_CLI_ENABLED_FEATURE_FLAGS COPILOT_RUNTIME_PROCESS_FILE_LOGGING COPILOT_CLI_RUN_AS_NODE COPILOT_MCP_APPS COPILOT_HOME COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT COPILOT_CLI COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL COPILOT_HOOK_DIR COPILOT_PROJECT_DIR 
+stdin: {"sessionId":"a88e0851-1a94-4c93-951f-f11d15fdb46c","timestamp":1793673409754,"cwd":"/home/nelson/probe-scratch","transcriptPath":"/home/nelson/.copilot/session-state/a88e0851-1a94-4c93-951f-f11d15fdb46c/events.jsonl","stopReason":"end_turn","stop_hook_active":true}
+output: {}

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "type": "command",
+        "bash": "bash .github/hooks/probe/probe.sh sessionStart",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/probe/probe.ps1 sessionStart nested",
+        "timeoutSec": 10 },
+      { "type": "command",
+        "powershell": "& ./.github/hooks/probe/probe.ps1 sessionStart direct",
+        "timeoutSec": 10 }
+    ],
+    "userPromptSubmitted": [
+      { "type": "command",
+        "bash": "bash .github/hooks/probe/probe.sh userPromptSubmitted",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/probe/probe.ps1 userPromptSubmitted nested",
+        "timeoutSec": 10 },
+      { "type": "command",
+        "powershell": "& ./.github/hooks/probe/probe.ps1 userPromptSubmitted direct",
+        "timeoutSec": 10 }
+    ],
+    "agentStop": [
+      { "type": "command",
+        "bash": "bash .github/hooks/probe/probe.sh agentStop",
+        "powershell": "powershell -NoProfile -ExecutionPolicy Bypass -File .github/hooks/probe/probe.ps1 agentStop nested",
+        "timeoutSec": 10 },
+      { "type": "command",
+        "powershell": "& ./.github/hooks/probe/probe.ps1 agentStop direct",
+        "timeoutSec": 10 }
+    ]
+  }
+}
